@@ -1,7 +1,7 @@
 menu_list_array = ["Cheese Pizza", "Pepperoni Pizza","Chicken Tandoori Pizza","Veg Pizza"];
 
 function getmenu(){
-var htmldata;
+var htmldata="";
 menu_list_array.sort();
         for(var i=0;i<menu_list_array.length;i++){
             htmldata=htmldata+ menu_list_array[i] + '<br>'
